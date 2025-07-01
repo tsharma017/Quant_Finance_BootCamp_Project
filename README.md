@@ -2,7 +2,8 @@
 
 This project series applies quantitative finance techniques to analyze real stock data, estimate portfolio risk, simulate option pricing behavior, and evaluate hedging performance under varying market conditions. The analysis spans four mini projects, each targeting a key concept using both theoretical models and empirical methods.
 
-Mini Project 1 – Normality of Log Returns
+Mini Project 1 – Normality of Log Returns:
+
 I collected historical closing prices from 8 major stocks (e.g., AAPL, MSFT, AMZN, NVDA) from Yahoo Finance (2015–2025), then computed daily log returns. We tested these returns for normality using Shapiro-Wilk and Anderson-Darling tests — two statistical methods that assess how closely data follows a normal distribution.
 
 Why: Normality is a key assumption in many financial models.
@@ -17,7 +18,8 @@ Using a rolling time window (252 days) revealed that normality is time-varying, 
 
 This highlights the importance of checking assumptions over time and cleaning data before modeling.
 
-Mini Project 2 – Value at Risk (VaR)
+Mini Project 2 – Value at Risk (VaR):
+
 I constructed an equal-weighted portfolio using the same stocks and estimated Value at Risk (VaR) — a common risk measure showing the maximum expected loss over a given time horizon at a certain confidence level.
 
 Methods used:
@@ -34,7 +36,8 @@ Backtesting showed that parametric VaR underestimated risk during turbulent peri
 
 This shows that model assumptions significantly affect risk estimates, and non-parametric methods may be safer in real markets.
 
-Mini Project 3 – Black-Scholes Option Pricing
+Mini Project 3 – Black-Scholes Option Pricing:
+
 I simulated how the price and rate of change (delta) of European call and put options change with time to expiration and spot price, using the Black-Scholes model.
 
 Why: To visually understand how option prices behave as market variables change.
