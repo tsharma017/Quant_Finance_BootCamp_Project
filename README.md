@@ -1,1 +1,1 @@
-# Quant_Finannce_BootCamp_PRoject
+# Quant_Finance_BootCamp_Project
