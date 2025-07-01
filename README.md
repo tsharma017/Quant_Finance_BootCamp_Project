@@ -54,7 +54,7 @@ Visualizations gave intuition on how calls and puts react differently to time an
 
 This helps interpret Greeks (sensitivity measures) and how traders manage risk.
 
-Mini Project 4 – Delta Hedging with Stochastic Volatility
+***Mini Project 4 – Delta Hedging with Stochastic Volatility***
 I explored how delta hedging performs when volatility is not constant, which is often true in real markets. I simulated thousands of price paths using:
 
 A custom model with randomly changing volatility per step.
@@ -78,6 +78,7 @@ The GARCH model produced more clustered, realistic volatility patterns.
 These findings reinforce that modeling realistic volatility is crucial for hedging and pricing derivatives accurately.
 
 ***Take Home Point***
+
 Across all projects:
 
 Real stock returns are not always normal and often include outliers.
